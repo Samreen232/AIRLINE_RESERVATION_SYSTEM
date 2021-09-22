@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>INDIGO:MENU</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="bck_gnd_user.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<center>
+<div class="col-sm-4">
+<div class="container" p-5>
+<div class=".jumbotron p-3 mb-3 text-black box">
+<h1>MENU</h1>
+</div>
+<ul class="list-group formst">
+
+	<li class="listele" style="border-bottom:1px solid black;"><a href="account.php" data-toggle="tooltip" title="User Profile" style="color:black;">MY ACCOUNT</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="flight_search_form.php" data-toggle="tooltip" title="Book a new flight" style="color:black;">BOOK A FLIGHT</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="upcoming_travel.php" data-toggle="tooltip" title="View your booked flights" style="color:black;">UPCOMING TRAVEL</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="travel_history.php" data-toggle="tooltip" title="View your travel history" style="color:black;">VIEW TRAVEL HISTORY</a></li>
+
+	<script>
+	$(document).ready(function(){
+  	$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
+</ul>
+
+<a href="logout.php" style="color:black;">LOG OUT</a>
+</div>
+</div>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+  background-image:url('airplane1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: -webkit-optimize-contrast;
+}
+.box{
+  margin: 10px;
+  border:2px solid black;
+  border-radius: 15px;
+  font-family: serif;
+  backdrop-filter:blur(30px);
+}
+.formst{
+  border:2px solid black;
+  border-radius: 15px;
+  backdrop-filter:blur(50px);
+}
+.formele{
+  margin:10px;
+  padding:10px;
+}
+.labeltxt{
+  color: black;
+}
+.but{
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border:1px solid black;
+  backdrop-filter:blur(30px);
+}
+.sidenav{
+  height:100%;
+  width:150px;
+  position:fixed;
+  top:0;
+  left:0;
+  padding-top: 20px;
+  border-right:2px solid black;
+  border-radius:15px;
+  background-color:black;
+}
+.sidenav a{
+  padding:19px;
+  text-decoration: none;
+  color:white;
+  width:100%;
+  display:block;
+  border-bottom:2px solid black;
+}
+.sidenav a:hover{
+  background-color:#80aaff;
+  color:black;
+}
+.listele{
+  margin:7px;
+  padding:7px;
+  list-style-type:none;
+  backdrop-filter:blur(30px);
+}

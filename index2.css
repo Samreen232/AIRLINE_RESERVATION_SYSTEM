@@ -1,0 +1,56 @@
+
+.navbar{
+    background-color: #000080;
+}
+.nav-link{
+    font-size: 17px;
+    color : #dee9fb;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    padding : 0.1% 3%;
+    color : #dee9fb;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.main-body{
+    padding: 10% 10%;
+    background-color: #dee9fb;
+}
+h1{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: BLACK;
+    text-align: center;
+    line-height: 1.5;
+}
+.quote{
+    background-color:#182346;
+}
+.s2{
+    padding: 5% 5%;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.features{
+    background-color: #dee9fb;
+    padding: 5% 5%;
+}
+.f{
+    line-height: 4.5;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.contact-us{
+    padding: 2% 2%;
+    background-color:#182346;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.icon{
+    padding-right:2%;
+}

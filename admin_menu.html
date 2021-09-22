@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>INDIGO:ADMIN MENU</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="back_gnd.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<center>
+<div class="col-sm-4">
+<div class="container" p-5>
+<div class=".jumbotron p-3 mb-3 text-black box">
+<h1>MENU</h1>
+</div>
+<ul class="list-group formst">
+
+	<li class="listele" style="border-bottom:1px solid black;"><a href="admin_bk_search.html" data-toggle="tooltip" title="View all bookings of a flight" style="color:black;">VIEW BOOKINGS</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="admin_ps_search.html" data-toggle="tooltip" title="View all passengers of a flight" style="color:black;">VIEW PASSENGERS</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="flight_add.html" data-toggle="tooltip" title="Add a new flight" style="color:black;">ADD FLIGHT</a></li>
+  <li class="listele" style="border-bottom:1px solid black;"><a href="flight_delete.html" data-toggle="tooltip" title="Delete an existing flight" style="color:black;">DELETE FLIGHT</a></li>
+  <li class="listele" style="border-bottom:1px solid black;"><a href="airplane_add.html" data-toggle="tooltip" title="Add a new airplane" style="color:black;">ADD AIRPLANE</a></li>
+  <li class="listele" style="border-bottom:1px solid black;"><a href="airplane_delete.html" data-toggle="tooltip" title="Delete an existing airplane" style="color:black;">DELETE AIRPLANE</a></li>
+	<li class="listele" style="border-bottom:1px solid black;"><a href="change_flight.php" data-toggle="tooltip" title="Change the flight" style="color:black;">CHANGE FLIGHT</a></li>
+	<li class="listele"><a style="color:black;" href="change_delay1.php" data-toggle="tooltip" title="Change flight timings incase of delay" >MODFIY FLIGHT TIMINGS</a></li>
+
+	<script>
+	$(document).ready(function(){
+  	$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
+</ul>
+
+<a href="admin_logout.php" style="color:black;">LOG OUT</a>
+</div>
+</div>
+</center>
+</body>
+</html>
